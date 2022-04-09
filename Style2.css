@@ -1,0 +1,43 @@
+p{text-align: center; padding: 110px; padding-top: 25px;color: rgb(255, 0, 76); font-size: 40px;}
+
+
+span{display: inline-block;}
+.one{
+    padding: 100px;
+    background-color: aqua;
+}
+
+.two{
+    padding: 100px;
+    background-color: orange;
+}
+
+.three{
+    padding:100px;
+    background-color: pink;
+}
+
+.four{
+    padding: 100px;
+    background-color: greenyellow;
+}
+
+
+/* Now lets add the media progressiveness */
+
+@media screen and (max-width: 1000px){
+    span.four{ background-color: coral;}
+}
+@media screen and (max-width: 1000px){
+    span.three{ background-color: rgb(238, 255, 80);}
+}
+@media screen and (max-width: 1000px){
+    span.two{ background-color: rgb(38, 236, 87);}
+}
+@media screen and (max-width: 1000px){
+    span.one{ background-color: rgb(194, 55, 159);}
+}
+
+
+/* now let check the output */
+/* Challenge completed */
