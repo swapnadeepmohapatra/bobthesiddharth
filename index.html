@@ -1,0 +1,199 @@
+
+<!--Boiller plate code "html:5" and '!' -->
+<!--'<hr> '<br>' -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hikewell</title>
+    <link rel="stylesheet" href="style/style.css">
+    <style>
+        .clip-circle{
+            clip-path: circle(50.0% at 50% 50%);
+        }
+        div{
+        width:160px;
+        height: 80px;
+        padding: 20px;
+        border: 3px solid rgb(255, 180, 180);
+        background: rgb(144, 246, 250);
+        }
+    </style>
+   
+</head>
+<body>
+    <h1>
+        Welcome to Hikewell
+    </h1>
+    <hr>
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">Flute Review</a>
+        <a href="#">Flutes</a>
+        <a href="#">About Us</a>
+        <a href="#">Login</a>
+        <a href="#">Sign Up</a>
+    </nav>
+    <hr>
+    <img src="pp.jpg" alt="" class="clip-circle">
+    <hr>
+    <div class="Content-box">Content Box</div>
+    <p>
+        <b>Lorem ipsum dolor sit amet consectetur adipisicing elit.</b> <i>Fuga, tenetur? Exercitationem, numquam repellat sunt voluptas ullam laborum quaerat velit consequuntur cumque recusandae itaque nostrum sit, unde fugiat odit excepturi beatae?</i> 
+        <s>Lorem ipsum dolor sit amet consectetur adipisicing elit.</s><small>
+        Log<sup>5</sup>
+        10<sub>9</sub> ipsum dolor sit amet consectetur adipisicing elit. Temporibus doloremque laudantium tempora eaque officia mollitia veniam nostrum commodi</small> L, harum magnam tenetur dolorum esse! Recusandae eveniet ullam ratione, voluptate 
+    </p>
+    <!-- List Creation:
+    There are two types of list in Html 
+    1)Ordered List: This gives list in number
+     Syntax:
+        <ol>
+            <li></li>
+        </ol>
+    2)Unordered List:This gives list in bullrt form and can be in various form like roman(i,ii,iii),alphaet(a,b,c),etc.
+     Syntax:
+        <ul>
+            <li></li>
+        </ul>
+-->
+    <hr>
+    <h2>Shopping List</h2>
+    <ul>
+        <li>Paneer</li>
+        <li>Butter</li>
+        <li>Milk</li>
+        <li>Cheese</li>
+        <li>Cream</li>
+    </ul>
+    <hr>
+    <h2>Maggie recipe ingredients</h2>
+    <ol>
+        <li>Maggie</li>
+        <li>water</li>
+        <li>fire</li>
+        <li>masala</li>
+        <li>2 mins</li>
+    </ol>
+    <hr>
+    <h2>TopRamen recipe ingredients</h2>
+    <ol type="i">
+        <li>Maggie</li>
+        <li>water</li>
+        <li>fire</li>
+        <!-- This is called Listing of List -->
+        <li>Add soe veggies like:</li>
+            <ul>
+                <li>Paneer</li>
+                <li>Pasta</li>
+                <li>Potato</li>
+                <li>Peas</li>
+            </ul>
+        <li>masala</li>
+        <li>2 mins</li>
+    </ol>
+    <hr>
+    <!-- Navigation in Web page using hyperlink-->
+    <!-- Absoulute link -->
+    <h2>Link Pages</h2>
+    <a href="page2.html" target="_blank">Page_2</a>
+    <!-- Relative link-->
+    <br>
+    <h2>Notes Class 12</h2>
+    <a href="D:/Class 12/Apni Kaksha/chemistery new/Alcohol Phenol & Ethers 2.pdf" target="_blank">Alcohol,Phenol&Ether</a>
+    <hr>
+    <a href="<iframe width="560" height="315" src="https://www.youtube.com/embed/3SydD3syWBU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>"></a>
+    <hr>
+    <h2>Image in web</h2>
+    <img src="C:\Users\Acer\Desktop\pp.jpg" alt="Image not Found" width="350">
+    <hr>
+    <h2>Video in web</h2>
+    <hr>
+    <video src="D:\Class 12\Chemical kinetics.mp4" width="500" muted loop autoplay></video>
+    <hr>
+    <video src="D:\Class 12\Chemical kinetics.mp4" width="500" controls loop></video>
+    <hr>
+    <video src="D:\Class 12\Chemical kinetics.mp4" width="500" muted loop controls poster="C:/Users/Acer/Desktop/pp.jpg"></video>
+    <hr>
+    <h2>IFrame Tag in WEB</h2>
+    <hr>
+    <iframe width="760" height="600" src="https://www.youtube.com/embed/PmFYZKG1je4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <iframe width="700" height="405" src="https://www.youtube.com/embed/2QR11oDukn4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <iframe src="https://www.spikewell.com/" frameborder="0"></iframe>
+    <hr>
+    <h2>Table in WEB</h2>
+    <table class="design">
+        <thead>
+            <tr>
+                <th>Subject</th>
+                <th>Theory</th>
+                <th>Total Mark</th>
+                <th>Practical</th>
+                <th>Grade</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th class="sub">English</th>
+                <td>85</td>
+                <td>90</td>
+                <td>100</td>
+                <td>A+</td>
+            </tr>
+            <tr>
+                <th class="sub">Math</th>
+                <td>85</td>
+                <td>90</td>
+                <td>100</td>
+                <td>A+</td>
+            </tr>
+            <tr>
+                <th class="sub">Chemistery</th>
+                <td>85</td>
+                <td>90</td>
+                <td>100</td>
+                <td>A+</td>
+            </tr>
+            <tr>
+                <th class="sub">Physics</th>
+                <td>85</td>
+                <td>90</td>
+                <td>100</td>
+                <td>A+</td>
+            </tr>
+            <tr>
+                <th class="sub">Computer</th>
+                <td>85</td>
+                <td>90</td>
+                <td>100</td>
+                <td>A+</td>
+            </tr>
+        </tbody>
+        <th colspan="5" class="result" >Result: Pass</th>
+    </table>
+    <hr>
+    <p>To proceed to payment gateway</p>
+    <a href="payment_form.html" target="_blank" type="button">Click here</a>
+    <p class"imp"  style="color: coral;">
+        This is a red color
+    </p>
+    
+        <div id="sidebar">
+            <h3>Raags Classical</h3>
+            <ul id="nav">
+                <li><a data-email="inertia.icse@gmail.com" href="mailto:fakesharma2021@gmail.com" >Bhairavi</a></li>
+                <a data-email="inertia.icse@gmail.com" href="mailto:fakesharma2021@gmail.com">Marwa</a></li>
+                <a data-email="inertia.icse@gmail.com" href="mailto:fakesharma2021@gmail.com">Madhyamavati</a></li>
+            </ul>
+        </div>
+
+        <div>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur veritatis praesentium nam sunt vel minus fugit, earum corrupti. Quidem, ad.
+            </p>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nobis at aperiam dignissimos veniam rem laborum quae odit quos doloribus fugiat?</p>
+        </div>
+    </div>
+</body>
+</html>
