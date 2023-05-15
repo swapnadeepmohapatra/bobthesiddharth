@@ -1,0 +1,59 @@
+*{
+    box-sizing: border-box;
+    background-color: #f2f2f2;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 2px;
+}
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin:auto;
+    font-size: 17px;
+    padding: 8px;
+}
+.h1co{
+    background-color: #81ce34;
+    margin: auto;
+    font-size: 17px;
+    padding: 8px;
+    text-indent: 2px;
+    color:beige;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 50px;
+    align-items: left;
+    border-radius: 3px;
+}
+.h1co1{
+    background-color: #81ce34;
+    padding: 4px;
+    height: 19px;
+    text-align:left;
+}
+
+.container1{
+    background-color: #ece2e2;
+    border-radius: 3px;
+    padding:2px 20px 15px 20px;
+    border: 1px solid color lightcoral;
+}
+
+input[type="text"],
+input[type="subject"],select,
+textarea{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+}
+
+input[type="button"]{
+    background-color:#dd2a7e;
+    padding: 10px 20px;
+    border: 1px #dd2a7e solid;
+    border-radius: 3px;
+}
+input[type="button"]:hover{
+    background-color: aqua;
+    padding: 12px 20px;
+    border-radius: 6px;
+    cursor: pointer;
+}

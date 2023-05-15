@@ -1,0 +1,53 @@
+nav a{
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    float: left;
+
+}
+nav{
+    background-color:black;
+    overflow: hidden;
+}
+nav a:hover{
+    color:aqua;
+
+}
+nav a:visited{
+    color:rgb(255, 51, 0);
+    
+}
+table,tr,th,td{
+    border: 2px solid black;
+    border-collapse: collapse;
+    padding: 10px;
+    border-spacing: 5px;
+}
+td{
+   background-color:aquamarine;
+}
+th{
+    background-color:coral;
+}
+.result{
+    background-color: blueviolet;
+}
+
+.sub{
+    background-color: rgb(255, 82, 117);
+}
+
+
+#sidebar ul li a{
+    color:rgb(255, 82, 117);
+    text-decoration: none;
+    padding: 10px 0;
+    display:block;
+    overflow:scroll;
+}
+
+#main_content{
+    width: 65%;
+    float: right;
+}
